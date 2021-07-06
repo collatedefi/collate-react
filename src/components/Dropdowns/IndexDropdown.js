@@ -51,17 +51,11 @@ const IndexDropdown = () => {
           BscScan
         </a>
         <a
-          to="/admin/settings"
+          href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56&outputCurrency=0xf0cd6b84cf627ef784fa0354cc1283c4ecab2a3f"
           className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
         >
           PCS Exchange
         </a>
-        <Link
-          to="/admin/tables"
-          className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-        >
-          Over the counter
-        </Link>
         <div className="h-0 mx-4 my-2 border border-solid border-blueGray-100" />
         <span
           className={
@@ -70,18 +64,18 @@ const IndexDropdown = () => {
         >
           Charts
         </span>
-        <Link
-          to="/auth/login"
+        <a
+          href="https://dex.guru/token/0xf0cd6b84cf627ef784fa0354cc1283c4ecab2a3f-bsc"
           className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
         >
           DexGuru
-        </Link>
-        <Link
-          to="/auth/register"
+        </a>
+        <a
+          href="https://poocoin.app/tokens/0xf0cd6b84cf627ef784fa0354cc1283c4ecab2a3f"
           className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
         >
           PooCoin
-        </Link>
+        </a>
       </div>
     </>
   );

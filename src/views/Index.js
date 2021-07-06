@@ -144,27 +144,27 @@ export default function Index() {
 
         <div className="container mx-auto px-4 pb-32 pt-48">
           <div className="items-center flex flex-wrap">
-            <div className="w-full md:w-5/12 ml-auto px-12 md:px-4">
-              <div className="md:pr-12">
+            <div className="w-full md:w-5/12 ml-auto px-4 md:px-4">
+              <div className="md:pr-0">
                 <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                   <i className="fas fa-file-alt text-xl"></i>
                 </div>
                 <h3 className="text-3xl font-semibold">
                   How Collate works?
                 </h3>
-                <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
+                <p className="text-justify mt-4 text-base leading-relaxed text-blueGray-500">
                 Each CUSD is backed by collateral reserves which guarantees the price of CUSD. 
                 The reserves are put into our vaults and then optimally staked on high quality decentralised farms.
                 </p>
-                <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
+                <p className="text-justify mt-4 text-base leading-relaxed text-blueGray-500">
                 The true price of CUSD is determined as the Total Reserve Assets available divided by
                 the Total Circulating Supply of CUSD.
                 </p>
-                <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
+                <p className="text-justify mt-4 text-base leading-relaxed text-blueGray-500">
                 A small liquidity pool is provided on Pancake Swap to maximise the reserves used for farming. The LP CUSD price is pegged
                 to the true price of CUSD but may deviate from time to time as a result of supply and demand.
                 </p>
-                <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
+                <p className="text-justify mt-4 text-base leading-relaxed text-blueGray-500">
                 The price of the CUSD token is guaranteed by the ability to trade over the counter for the reserves backing it.
                 There is a 1% charge to cover transaction costs.
                 </p>
