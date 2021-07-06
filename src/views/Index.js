@@ -20,7 +20,10 @@ export default function Index() {
               <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
                 Collate Finance creates collateralised assets on the blockchain
                 which are used to generate growth for investors by aggregating yields
-                in the decentralised finance ecosystem. 
+                in the decentralised finance ecosystem.
+              </p>
+              <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
+                It's like a mutual fund but for Defi.
               </p>
               
               <div className="mt-12">
@@ -157,7 +160,7 @@ export default function Index() {
                 </p>
                 <p className="text-justify mt-4 text-base leading-relaxed text-blueGray-500">
                 The true price of CUSD is determined as the Total Reserve Assets available divided by
-                the Total Circulating Supply of CUSD.
+                the Total Circulating Supply of CUSD. CUSD started at a price of $1 USD.
                 </p>
                 <p className="text-justify mt-4 text-base leading-relaxed text-blueGray-500">
                 A small liquidity pool is provided on Pancake Swap to maximise the reserves used for farming. The LP CUSD price is pegged
@@ -165,7 +168,7 @@ export default function Index() {
                 </p>
                 <p className="text-justify mt-4 text-base leading-relaxed text-blueGray-500">
                 The price of the CUSD token is guaranteed by the ability to trade over the counter for the reserves backing it.
-                There is a 1% charge to cover transaction costs.
+                There is a 1% charge to cover transaction costs. Note that withdrawls have no impact on the price of CUSD as the price is fixed the the reserves available.
                 </p>
               </div>
             </div>
