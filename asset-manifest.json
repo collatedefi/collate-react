@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/collate-react/static/css/main.26b6522b.chunk.css",
-    "main.js": "/collate-react/static/js/main.6ed88414.chunk.js",
-    "main.js.map": "/collate-react/static/js/main.6ed88414.chunk.js.map",
+    "main.js": "/collate-react/static/js/main.f81e6595.chunk.js",
+    "main.js.map": "/collate-react/static/js/main.f81e6595.chunk.js.map",
     "runtime-main.js": "/collate-react/static/js/runtime-main.ed0deb2c.js",
     "runtime-main.js.map": "/collate-react/static/js/runtime-main.ed0deb2c.js.map",
     "static/css/2.ee2295e2.chunk.css": "/collate-react/static/css/2.ee2295e2.chunk.css",
@@ -33,6 +33,6 @@
     "static/css/2.ee2295e2.chunk.css",
     "static/js/2.b1db8537.chunk.js",
     "static/css/main.26b6522b.chunk.css",
-    "static/js/main.6ed88414.chunk.js"
+    "static/js/main.f81e6595.chunk.js"
   ]
 }
