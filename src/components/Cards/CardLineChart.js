@@ -7,20 +7,20 @@ export default function CardLineChart() {
       type: "line",
       data: {
         labels: [
-          "January",
-          "February",
-          "March",
-          "April",
-          "May",
-          "June",
-          "July",
+          "5 July",
+          "5 July",
+          "5 July",
+          "6 July",
+          "6 July",
+          "6 July",
+          "6 July",
         ],
         datasets: [
           {
             label: new Date().getFullYear(),
             backgroundColor: "#4c51bf",
             borderColor: "#4c51bf",
-            data: [65, 78, 66, 44, 56, 67, 75],
+            data: [1, 1.002, 1.004, 1.008, 1.01, 1.011, 1.013],
             fill: false,
           },
           {
@@ -28,7 +28,7 @@ export default function CardLineChart() {
             fill: false,
             backgroundColor: "#fff",
             borderColor: "#fff",
-            data: [40, 68, 86, 74, 56, 60, 87],
+            data: [0, 0, 0, 0, 0, 0, 0],
           },
         ],
       },
@@ -115,7 +115,7 @@ export default function CardLineChart() {
               <h6 className="uppercase text-blueGray-100 mb-1 text-xs font-semibold">
                 Overview
               </h6>
-              <h2 className="text-white text-xl font-semibold">Sales value</h2>
+              <h2 className="text-white text-xl font-semibold">CUSD Price</h2>
             </div>
           </div>
         </div>
