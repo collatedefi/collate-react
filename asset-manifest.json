@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/collate-react/static/css/main.26b6522b.chunk.css",
-    "main.js": "/collate-react/static/js/main.62804904.chunk.js",
-    "main.js.map": "/collate-react/static/js/main.62804904.chunk.js.map",
+    "main.js": "/collate-react/static/js/main.46330ba4.chunk.js",
+    "main.js.map": "/collate-react/static/js/main.46330ba4.chunk.js.map",
     "runtime-main.js": "/collate-react/static/js/runtime-main.ed0deb2c.js",
     "runtime-main.js.map": "/collate-react/static/js/runtime-main.ed0deb2c.js.map",
     "static/css/2.ee2295e2.chunk.css": "/collate-react/static/css/2.ee2295e2.chunk.css",
-    "static/js/2.2ee0921e.chunk.js": "/collate-react/static/js/2.2ee0921e.chunk.js",
-    "static/js/2.2ee0921e.chunk.js.map": "/collate-react/static/js/2.2ee0921e.chunk.js.map",
+    "static/js/2.b1db8537.chunk.js": "/collate-react/static/js/2.b1db8537.chunk.js",
+    "static/js/2.b1db8537.chunk.js.map": "/collate-react/static/js/2.b1db8537.chunk.js.map",
     "index.html": "/collate-react/index.html",
     "static/css/2.ee2295e2.chunk.css.map": "/collate-react/static/css/2.ee2295e2.chunk.css.map",
     "static/css/main.26b6522b.chunk.css.map": "/collate-react/static/css/main.26b6522b.chunk.css.map",
-    "static/js/2.2ee0921e.chunk.js.LICENSE.txt": "/collate-react/static/js/2.2ee0921e.chunk.js.LICENSE.txt",
+    "static/js/2.b1db8537.chunk.js.LICENSE.txt": "/collate-react/static/js/2.b1db8537.chunk.js.LICENSE.txt",
     "static/media/angular.jpg": "/collate-react/static/media/angular.b5045666.jpg",
     "static/media/bootstrap.jpg": "/collate-react/static/media/bootstrap.bd712487.jpg",
     "static/media/all.min.css": "/collate-react/static/media/fa-solid-900.efbd5d20.eot",
@@ -20,6 +20,7 @@
     "static/media/pattern_react.png": "/collate-react/static/media/pattern_react.01996482.png",
     "static/media/react.jpg": "/collate-react/static/media/react.0e8c9066.jpg",
     "static/media/register_bg_2.png": "/collate-react/static/media/register_bg_2.4f2cb0ac.png",
+    "static/media/security.jpeg": "/collate-react/static/media/security.09b67ff2.jpeg",
     "static/media/sketch.jpg": "/collate-react/static/media/sketch.a6af780a.jpg",
     "static/media/team-1-800x800.jpg": "/collate-react/static/media/team-1-800x800.fa5a7ac2.jpg",
     "static/media/team-2-800x800.jpg": "/collate-react/static/media/team-2-800x800.3e08ef14.jpg",
@@ -30,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.ed0deb2c.js",
     "static/css/2.ee2295e2.chunk.css",
-    "static/js/2.2ee0921e.chunk.js",
+    "static/js/2.b1db8537.chunk.js",
     "static/css/main.26b6522b.chunk.css",
-    "static/js/main.62804904.chunk.js"
+    "static/js/main.46330ba4.chunk.js"
   ]
 }
