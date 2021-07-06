@@ -1,31 +1,23 @@
 {
   "files": {
     "main.css": "/collate-react/static/css/main.26b6522b.chunk.css",
-    "main.js": "/collate-react/static/js/main.74fdd8b5.chunk.js",
-    "main.js.map": "/collate-react/static/js/main.74fdd8b5.chunk.js.map",
+    "main.js": "/collate-react/static/js/main.62804904.chunk.js",
+    "main.js.map": "/collate-react/static/js/main.62804904.chunk.js.map",
     "runtime-main.js": "/collate-react/static/js/runtime-main.ed0deb2c.js",
     "runtime-main.js.map": "/collate-react/static/js/runtime-main.ed0deb2c.js.map",
     "static/css/2.ee2295e2.chunk.css": "/collate-react/static/css/2.ee2295e2.chunk.css",
-    "static/js/2.2faf2a01.chunk.js": "/collate-react/static/js/2.2faf2a01.chunk.js",
-    "static/js/2.2faf2a01.chunk.js.map": "/collate-react/static/js/2.2faf2a01.chunk.js.map",
+    "static/js/2.2ee0921e.chunk.js": "/collate-react/static/js/2.2ee0921e.chunk.js",
+    "static/js/2.2ee0921e.chunk.js.map": "/collate-react/static/js/2.2ee0921e.chunk.js.map",
     "index.html": "/collate-react/index.html",
     "static/css/2.ee2295e2.chunk.css.map": "/collate-react/static/css/2.ee2295e2.chunk.css.map",
     "static/css/main.26b6522b.chunk.css.map": "/collate-react/static/css/main.26b6522b.chunk.css.map",
-    "static/js/2.2faf2a01.chunk.js.LICENSE.txt": "/collate-react/static/js/2.2faf2a01.chunk.js.LICENSE.txt",
+    "static/js/2.2ee0921e.chunk.js.LICENSE.txt": "/collate-react/static/js/2.2ee0921e.chunk.js.LICENSE.txt",
     "static/media/angular.jpg": "/collate-react/static/media/angular.b5045666.jpg",
     "static/media/bootstrap.jpg": "/collate-react/static/media/bootstrap.bd712487.jpg",
-    "static/media/component-info-2.png": "/collate-react/static/media/component-info-2.5212a3a6.png",
-    "static/media/component-info-card.png": "/collate-react/static/media/component-info-card.d19a4464.png",
-    "static/media/component-menu.png": "/collate-react/static/media/component-menu.418bd949.png",
-    "static/media/component-profile-card.png": "/collate-react/static/media/component-profile-card.52a3ee76.png",
-    "static/media/documentation.png": "/collate-react/static/media/documentation.014ebef5.png",
     "static/media/all.min.css": "/collate-react/static/media/fa-solid-900.efbd5d20.eot",
     "static/media/github.svg": "/collate-react/static/media/github.6c955556.svg",
     "static/media/google.svg": "/collate-react/static/media/google.eae9aa93.svg",
-    "static/media/landing.jpg": "/collate-react/static/media/landing.8150f1b0.jpg",
-    "static/media/login.jpg": "/collate-react/static/media/login.9c1ecd37.jpg",
     "static/media/pattern_react.png": "/collate-react/static/media/pattern_react.01996482.png",
-    "static/media/profile.jpg": "/collate-react/static/media/profile.c62f8a5b.jpg",
     "static/media/react.jpg": "/collate-react/static/media/react.0e8c9066.jpg",
     "static/media/register_bg_2.png": "/collate-react/static/media/register_bg_2.4f2cb0ac.png",
     "static/media/sketch.jpg": "/collate-react/static/media/sketch.a6af780a.jpg",
@@ -38,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.ed0deb2c.js",
     "static/css/2.ee2295e2.chunk.css",
-    "static/js/2.2faf2a01.chunk.js",
+    "static/js/2.2ee0921e.chunk.js",
     "static/css/main.26b6522b.chunk.css",
-    "static/js/main.74fdd8b5.chunk.js"
+    "static/js/main.62804904.chunk.js"
   ]
 }
