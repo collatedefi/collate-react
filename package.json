@@ -1,8 +1,9 @@
 {
-  "name": "notus-react",
+  "name": "collate-react",
+  "homepage": "https://collatedefi.github.io/collate-react",
   "version": "1.1.0",
-  "description": "Notus React - A free Tailwind CSS and React UI Kit and Admin by Creative Tim.",
-  "repository": "https://github.com/creativetimofficial/notus-react",
+  "description": "Collate React - A free Tailwind CSS and React UI Kit and Admin by Creative Tim.",
+  "repository": "https://github.com/collatedefi/collate-react",
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.15.3",
@@ -10,6 +11,7 @@
     "@tailwindcss/forms": "0.2.1",
     "autoprefixer": "10.2.5",
     "chart.js": "2.9.4",
+    "gh-pages": "^3.2.3",
     "gulp": "4.0.2",
     "gulp-append-prepend": "1.0.8",
     "postcss": "8.2.8",
@@ -21,6 +23,8 @@
     "tailwindcss": "2.0.4"
   },
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build && gulp licenses",
     "test": "react-scripts test",
