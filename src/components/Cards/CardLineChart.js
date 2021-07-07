@@ -9,18 +9,18 @@ export default function CardLineChart() {
         labels: [
           "5 July",
           "5 July",
-          "5 July",
           "6 July",
           "6 July",
           "6 July",
-          "6 July",
+          "7 July",
+          "7 July",
         ],
         datasets: [
           {
             label: new Date().getFullYear(),
             backgroundColor: "#4c51bf",
             borderColor: "#4c51bf",
-            data: [1, 1.002, 1.004, 1.008, 1.01, 1.011, 1.013],
+            data: [1, 1.002, 1.004, 1.008, 1.012, 1.014, 1.015],
             fill: false,
           },
           {

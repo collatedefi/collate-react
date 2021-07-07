@@ -192,7 +192,7 @@ export default function Index() {
                         Market
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        Very low as most reserves are held in stable USD pegged assets
+                        Very low as most reserves are held in stable coins and hedged crypto coins
                       </p>
                     </div>
                   </div>
