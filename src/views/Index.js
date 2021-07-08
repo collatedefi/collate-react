@@ -117,7 +117,7 @@ export default function Index() {
                 </div>
                 <h6 className="text-xl font-semibold">Sustained Growth</h6>
                 <p className="mt-2 mb-4 text-blueGray-500">
-                  Earn up to 100% from optimised collateral farming which 
+                  Earn high returns from optimised collateral farming which 
                   steadily increases the floor price of Collate USD
                 </p>
                 <p className="mt-2 mb-4 text-blueGray-500">
