@@ -10,7 +10,7 @@ export default function CardPageVisits() {
           <div className="flex flex-wrap items-center">
             <div className="relative w-full px-4 max-w-full flex-grow flex-1">
               <h3 className="font-semibold text-base text-blueGray-700">
-                Asset Positions ('000)
+                Assets
               </h3>
             </div>
             <div className="relative w-full px-4 max-w-full flex-grow flex-1 text-right">
@@ -29,16 +29,16 @@ export default function CardPageVisits() {
             <thead>
               <tr>
                 <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
-                  Asset
+                  $000
                 </th>
                 <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
-                  Gross Position
+                  Gross
                 </th>
                 <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
-                  Hedged Position
+                  Hedged
                 </th>
                 <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
-                  Asset Proportion
+                  Proportion
                 </th>
               </tr>
             </thead>
@@ -54,7 +54,17 @@ export default function CardPageVisits() {
                   0
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  34%
+                  <div className="flex items-center">
+                    <span className="mr-2">34%</span>
+                    <div className="relative w-full">
+                      <div className="overflow-hidden h-2 text-xs flex rounded bg-red-200">
+                        <div
+                          style={{ width: "34%" }}
+                          className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-500"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
                 </td>
               </tr>
               <tr>
@@ -68,7 +78,17 @@ export default function CardPageVisits() {
                   127
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  20%
+                  <div className="flex items-center">
+                    <span className="mr-2">20%</span>
+                    <div className="relative w-full">
+                      <div className="overflow-hidden h-2 text-xs flex rounded bg-emerald-200">
+                        <div
+                          style={{ width: "20%" }}
+                          className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-emerald-500"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
                 </td>
               </tr>
               <tr>
@@ -82,7 +102,17 @@ export default function CardPageVisits() {
                   0
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  18%
+                  <div className="flex items-center">
+                    <span className="mr-2">18%</span>
+                    <div className="relative w-full">
+                      <div className="overflow-hidden h-2 text-xs flex rounded bg-purple-200">
+                        <div
+                          style={{ width: "18%" }}
+                          className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-500"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
                 </td>
               </tr>
               <tr>
@@ -96,7 +126,17 @@ export default function CardPageVisits() {
                   49
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  8%
+                  <div className="flex items-center">
+                    <span className="mr-2">8%</span>
+                    <div className="relative w-full">
+                      <div className="overflow-hidden h-2 text-xs flex rounded bg-lightBlue-200">
+                        <div
+                          style={{ width: "8%" }}
+                          className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-lightBlue-500"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
                 </td>
               </tr>
               <tr>
@@ -110,7 +150,17 @@ export default function CardPageVisits() {
                   45
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  7%
+                  <div className="flex items-center">
+                    <span className="mr-2">7%</span>
+                    <div className="relative w-full">
+                      <div className="overflow-hidden h-2 text-xs flex rounded bg-red-200">
+                        <div
+                          style={{ width: "7%" }}
+                          className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-500"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
                 </td>
               </tr>
               <tr>
@@ -124,7 +174,17 @@ export default function CardPageVisits() {
                   0
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  7%
+                  <div className="flex items-center">
+                    <span className="mr-2">7%</span>
+                    <div className="relative w-full">
+                      <div className="overflow-hidden h-2 text-xs flex rounded bg-emerald-200">
+                        <div
+                          style={{ width: "7%" }}
+                          className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-emerald-500"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
                 </td>
               </tr>
               <tr>
@@ -138,7 +198,17 @@ export default function CardPageVisits() {
                   0
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  5%
+                  <div className="flex items-center">
+                    <span className="mr-2">5%</span>
+                    <div className="relative w-full">
+                      <div className="overflow-hidden h-2 text-xs flex rounded bg-purple-200">
+                        <div
+                          style={{ width: "5%" }}
+                          className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-500"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
                 </td>
               </tr>
               <tr>
@@ -152,7 +222,17 @@ export default function CardPageVisits() {
                   0
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  4%
+                  <div className="flex items-center">
+                    <span className="mr-2">4%</span>
+                    <div className="relative w-full">
+                      <div className="overflow-hidden h-2 text-xs flex rounded bg-lightBlue-200">
+                        <div
+                          style={{ width: "4%" }}
+                          className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-lightBlue-500"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
                 </td>
               </tr>
               <tr>
@@ -166,7 +246,17 @@ export default function CardPageVisits() {
                   25
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  4%
+                  <div className="flex items-center">
+                    <span className="mr-2">4%</span>
+                    <div className="relative w-full">
+                      <div className="overflow-hidden h-2 text-xs flex rounded bg-red-200">
+                        <div
+                          style={{ width: "4%" }}
+                          className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-500"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
                 </td>
               </tr>
             </tbody>
