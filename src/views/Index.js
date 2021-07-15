@@ -22,7 +22,7 @@ export default function Index() {
                 in the decentralised finance ecosystem.
               </p>
               <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                It's like a mutual fund but for Defi.
+                It's a mutual fund for Defi.
               </p>
               <div className="mt-12">
                 <Link
@@ -282,6 +282,9 @@ export default function Index() {
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Mdex
+                </span>
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                  Etc
                 </span>
               </div>
             </div>

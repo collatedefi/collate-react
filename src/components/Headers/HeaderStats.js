@@ -24,7 +24,7 @@ export default function HeaderStats() {
           <div>
             {/* Card stats */}
             <div className="flex flex-wrap">
-              {googleData.map((el) => (
+              {googleData.filter(el => el.id <= 4).map(el => (
                 <div className="w-full lg:w-6/12 xl:w-3/12 px-4">
                   <CardStats
                     statSubtitle={el.statSubtitle}
