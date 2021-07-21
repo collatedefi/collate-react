@@ -415,11 +415,21 @@ export default function Index() {
               <h3 className="text-3xl mb-2 font-semibold leading-normal text-white">
                 All about the fees
               </h3>
-              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-400">
-                As mentioned above there is a 1% transaction fee when using the OTC service which goes back to the reserves.
+              <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-200">
+                There is a 10% performance fee to cover all operational and marketing expenses.
               </p>
-              <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-400">
-                There is also a 10% performance fee to cover all operational and marketing expenses.
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-200">
+                As mentioned above there is also a 1% transaction fee when using the OTC service which goes back to the reserves.
+              </p>
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-200">
+                We also pay 0.5% referral fees for any new users' deposits. Please contact our 
+                <a
+                  href="https://t.me/collatefinance"
+                  className="text-blueGray-400"
+                  target="_blank"
+                > Telegram 
+                </a>
+                {" "} for more details.
               </p>
             </div>
             <div className="w-full md:w-4/12 px-4 mr-auto ml-auto mt-32 relative">
