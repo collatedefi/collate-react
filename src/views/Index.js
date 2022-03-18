@@ -32,7 +32,7 @@ export default function Index() {
                   Dashboard
                 </Link>
                 <a
-                  href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56&outputCurrency=0xf0cd6b84cf627ef784fa0354cc1283c4ecab2a3f"
+                  href="https://pancakeswap.finance/swap?outputCurrency=0xf0cd6b84cf627ef784fa0354cc1283c4ecab2a3f"
                   className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   target="_blank"
                 >
@@ -192,7 +192,7 @@ export default function Index() {
                         Market
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        Very low as most reserves are held in stable coins and hedged crypto coins
+                        A maximum of 10% of reserves are held in procured non-stable pegged crypto assets
                       </p>
                     </div>
                   </div>
@@ -231,7 +231,7 @@ export default function Index() {
                         Performance
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        Histoical performance is not guaranteed for future performance as yields may decrease over time
+                        Historical performance is not guaranteed for future performance as yields may decrease over time
                       </p>
                     </div>
                   </div>
@@ -256,7 +256,7 @@ export default function Index() {
               </p>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
                 Each CUSD is backed by collateral reserves which guarantees the price of CUSD. 
-                The reserves are put into our vaults and then optimally staked on a variety of platforms such as:
+                The reserves are put into our vaults and then optimally staked on a variety of decentralised finance platforms such as:
               </p>
               <div className="block pb-6">
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
@@ -266,22 +266,22 @@ export default function Index() {
                   Wault
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Beefy
+                  Yearn
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Slime
+                  OXDAO
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Alpaca
+                  Tectonic
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Rabbit
+                  Tulip
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Auto
+                  IronBank
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Mdex
+                  MMF
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Etc
@@ -325,6 +325,97 @@ export default function Index() {
             </div>
           </div>
         </div>
+
+        <div className="container mx-auto px-4 pt-48">
+            <div className="items-center flex flex-wrap">
+              <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
+                <img
+                  alt="..."
+                  className="max-w-full rounded-lg shadow-lg hidden md:block"
+                  src={require("assets/img/vault.jpeg").default}
+                />
+              </div>
+              <div className="w-full md:w-5/12 ml-auto px-12 md:px-4">
+                <div className="md:pr-12">
+                  <div className="text-lightBlue-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-lightBlue-300">
+                    <i className="fas fa-rocket text-xl"></i>
+                  </div>
+                  <h3 className="text-3xl font-semibold">What is Decentralised Finance?</h3>
+                  <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
+                    Decentralised Finance is a collection of systems that enable people to
+                    interact with financial products in a verifiable way on the various blockchains. You can verify
+                    the balance of the Collate assets in the links below:
+                  </p>
+                  <ul className="list-none mt-6">
+                    <li className="py-2">
+                      <div className="flex items-center">
+                        <div>
+                          <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
+                            <i className="fas fa-fingerprint"></i>
+                          </span>
+                        </div>
+                        <div>
+                          <h4 className="text-blueGray-500">
+                            <a href="https://debank.com/profile/0xd13b8630f26a01d563a9e2a72aa337852a41b714">
+                              Vault One
+                            </a>                      
+                          </h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li className="py-2">
+                      <div className="flex items-center">
+                        <div>
+                          <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
+                            <i className="fas fa-fingerprint"></i>
+                          </span>
+                        </div>
+                        <div>
+                          <h4 className="text-blueGray-500">
+                            <a href="https://debank.com/profile/0x6daCc5bE6eAB9e2a9AbbC99E026D2aAD6AbF4D80">
+                              Vault Two
+                            </a> 
+                          </h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li className="py-2">
+                      <div className="flex items-center">
+                        <div>
+                          <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
+                            <i className="fas fa-fingerprint"></i>
+                          </span>
+                        </div>
+                        <div>
+                          <h4 className="text-blueGray-500">
+                            <a href="https://debank.com/profile/0x2f3Da052FaAE4Df8fF98BC9029a32920AD0aFcA1">
+                              Vault Three
+                            </a> 
+                          </h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li className="py-2">
+                      <div className="flex items-center">
+                        <div>
+                          <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
+                            <i className="fab fa-html5"></i>
+                          </span>
+                        </div>
+                        <div>
+                          <h4 className="text-blueGray-500">
+                          <a href="https://apeboard.finance/dashboard/GxnfhWpgEWssLnXM5obRf1tAyqzj85GvnerBxqHjLavt">
+                              Vault Four
+                            </a> 
+                          </h4>
+                        </div>
+                      </div>
+                    </li>      
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
 
         <div className="container mx-auto px-4 pb-32 pt-48">
           <div className="items-center flex flex-wrap">
