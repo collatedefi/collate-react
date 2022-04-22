@@ -16,9 +16,9 @@ export default function HeaderStats() {
               <div className="w-full lg:w-6/12 xl:w-3/12 px-4">
                 <CardStats
                   statSubtitle="CUSD Price"
-                  statTitle="$1.50"
+                  statTitle="$1.59"
                   statArrow="up"
-                  statPercent="2.74"
+                  statPercent="6.00"
                   statPercentColor="text-emerald-500"
                   statDescripiron="Since last month"
                   statIconName="far fa-chart-bar"
@@ -28,9 +28,9 @@ export default function HeaderStats() {
               <div className="w-full lg:w-6/12 xl:w-3/12 px-4">
                 <CardStats
                   statSubtitle="Collateral"
-                  statTitle="$759,960"
-                  statArrow="down"
-                  statPercent="7.70"
+                  statTitle="$873,277"
+                  statArrow="up"
+                  statPercent="14.91"
                   statPercentColor="text-emerald-500"
                   statDescripiron="Since last month"
                   statIconName="fas fa-chart-pie"
@@ -40,9 +40,9 @@ export default function HeaderStats() {
               <div className="w-full lg:w-6/12 xl:w-3/12 px-4">
                 <CardStats
                   statSubtitle="Circulating Supply"
-                  statTitle="494,348"
-                  statArrow="down"
-                  statPercent="10.16"
+                  statTitle="549,231"
+                  statArrow="up"
+                  statPercent="8.41"
                   statPercentColor="text-emerald-500"
                   statDescripiron="Since last month"
                   statIconName="fas fa-users"
@@ -52,7 +52,7 @@ export default function HeaderStats() {
               <div className="w-full lg:w-6/12 xl:w-3/12 px-4">
                 <CardStats
                   statSubtitle="Historical APY"
-                  statTitle="87%"
+                  statTitle="90%"
                   statArrow=""
                   statPercent="40"
                   statPercentColor="text-emerald-500"

@@ -23,7 +23,7 @@ export default function CardLineChart() {
             label: "CUSD",
             backgroundColor: "#4c51bf",
             borderColor: "#4c51bf",
-            data: [1, 1.06, 1.08, 1.15, 1.32, 1.38, 1.43, 1.46, 1.50],
+            data: [1, 1.08, 1.15, 1.32, 1.38, 1.43, 1.46, 1.50, 1.59],
             fill: false,
           },
         ],

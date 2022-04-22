@@ -45,15 +45,15 @@ export default function CardSocialTraffic() {
                   Cronos
                 </th>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  388
+                  415
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   <div className="flex items-center">
-                    <span className="mr-2">52%</span>
+                    <span className="mr-2">47%</span>
                     <div className="relative w-full">
                       <div className="overflow-hidden h-2 text-xs flex rounded bg-red-200">
                         <div
-                          style={{ width: "52%" }}
+                          style={{ width: "47%" }}
                           className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-500"
                         ></div>
                       </div>
@@ -66,15 +66,15 @@ export default function CardSocialTraffic() {
                   Solana
                 </th>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  308
+                  309
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   <div className="flex items-center">
-                    <span className="mr-2">42%</span>
+                    <span className="mr-2">35%</span>
                     <div className="relative w-full">
                       <div className="overflow-hidden h-2 text-xs flex rounded bg-emerald-200">
                         <div
-                          style={{ width: "42%" }}
+                          style={{ width: "35%" }}
                           className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-emerald-500"
                         ></div>
                       </div>
@@ -82,20 +82,20 @@ export default function CardSocialTraffic() {
                   </div>
                 </td>
               </tr>
-              {/* <tr>
+              <tr>
                 <th className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left">
-                  Solana
+                  Luna
                 </th>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  84
+                  111
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   <div className="flex items-center">
-                    <span className="mr-2">10%</span>
+                    <span className="mr-2">13%</span>
                     <div className="relative w-full">
                       <div className="overflow-hidden h-2 text-xs flex rounded bg-purple-200">
                         <div
-                          style={{ width: "10%" }}
+                          style={{ width: "13%" }}
                           className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-500"
                         ></div>
                       </div>
@@ -108,22 +108,22 @@ export default function CardSocialTraffic() {
                   BSC
                 </th>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  66
+                  42
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   <div className="flex items-center">
-                    <span className="mr-2">8%</span>
+                    <span className="mr-2">5%</span>
                     <div className="relative w-full">
                       <div className="overflow-hidden h-2 text-xs flex rounded bg-lightBlue-200">
                         <div
-                          style={{ width: "8%" }}
+                          style={{ width: "5%" }}
                           className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-lightBlue-500"
                         ></div>
                       </div>
                     </div>
                   </div>
                 </td>
-              </tr> */}
+              </tr>
             </tbody>
           </table>
         </div>
