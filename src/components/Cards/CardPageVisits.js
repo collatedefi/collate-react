@@ -10,7 +10,7 @@ export default function CardPageVisits() {
           <div className="flex flex-wrap items-center">
             <div className="relative w-full px-4 max-w-full flex-grow flex-1">
               <h3 className="font-semibold text-base text-blueGray-700">
-                Tokens
+                Top tokens
               </h3>
             </div>
             <div className="relative w-full px-4 max-w-full flex-grow flex-1 text-right">
@@ -45,15 +45,15 @@ export default function CardPageVisits() {
                   USDC
                 </th>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  590
+                  910
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   <div className="flex items-center">
-                    <span className="mr-2">71%</span>
+                    <span className="mr-2">49%</span>
                     <div className="relative w-full">
                       <div className="overflow-hidden h-2 text-xs flex rounded bg-red-200">
                         <div
-                          style={{ width: "71%" }}
+                          style={{ width: "49%" }}
                           className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-500"
                         ></div>
                       </div>
@@ -63,18 +63,18 @@ export default function CardPageVisits() {
               </tr>
               <tr>
                 <th className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left">
-                  USDT
+                  DARK
                 </th>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  111
+                  366
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   <div className="flex items-center">
-                    <span className="mr-2">13%</span>
+                    <span className="mr-2">20%</span>
                     <div className="relative w-full">
                       <div className="overflow-hidden h-2 text-xs flex rounded bg-emerald-200">
                         <div
-                          style={{ width: "13%" }}
+                          style={{ width: "20%" }}
                           className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-emerald-500"
                         ></div>
                       </div>
@@ -87,15 +87,15 @@ export default function CardPageVisits() {
                   BUSD
                 </th>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  33
+                  112
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   <div className="flex items-center">
-                    <span className="mr-2">4%</span>
+                    <span className="mr-2">6%</span>
                     <div className="relative w-full">
                       <div className="overflow-hidden h-2 text-xs flex rounded bg-purple-200">
                         <div
-                          style={{ width: "4%" }}
+                          style={{ width: "6%" }}
                           className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-500"
                         ></div>
                       </div>

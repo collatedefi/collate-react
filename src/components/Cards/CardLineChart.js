@@ -7,7 +7,7 @@ export default function CardLineChart() {
       type: "line",
       data: {
         labels: [
-          "Jul",
+          "Jul 21",
           "Aug",
           "Sep",
           "Oct",
@@ -16,6 +16,7 @@ export default function CardLineChart() {
           "Jan",
           "Feb",
           "Mar",
+          "Apr 22"
         ],
         datasets: [
           {
@@ -23,9 +24,17 @@ export default function CardLineChart() {
             label: "CUSD",
             backgroundColor: "#4c51bf",
             borderColor: "#4c51bf",
-            data: [1, 1.08, 1.15, 1.32, 1.38, 1.43, 1.46, 1.50, 1.59],
+            data: [1, 1.08, 1.15, 1.32, 1.38, 1.43, 1.46, 1.50, 1.59, 1.69],
             fill: false,
           },
+          {
+            // label: new Date().getFullYear(),
+            label: "CBTC",
+            backgroundColor: "#BFBA4C",
+            borderColor: "#BFBA4C",
+            data: [,,,,,,,,1, 1.03],
+            fill: false,
+          }
         ],
       },
       options: {

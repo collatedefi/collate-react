@@ -16,9 +16,9 @@ export default function HeaderStats() {
               <div className="w-full lg:w-6/12 xl:w-3/12 px-4">
                 <CardStats
                   statSubtitle="CUSD Price"
-                  statTitle="$1.59"
+                  statTitle="$1.70"
                   statArrow="up"
-                  statPercent="6.00"
+                  statPercent="7"
                   statPercentColor="text-emerald-500"
                   statDescripiron="Since last month"
                   statIconName="far fa-chart-bar"
@@ -27,10 +27,10 @@ export default function HeaderStats() {
               </div>
               <div className="w-full lg:w-6/12 xl:w-3/12 px-4">
                 <CardStats
-                  statSubtitle="Collateral"
-                  statTitle="$873,277"
+                  statSubtitle="CUSD Collateral"
+                  statTitle="$1.160m"
                   statArrow="up"
-                  statPercent="14.91"
+                  statPercent="32"
                   statPercentColor="text-emerald-500"
                   statDescripiron="Since last month"
                   statIconName="fas fa-chart-pie"
@@ -39,10 +39,10 @@ export default function HeaderStats() {
               </div>
               <div className="w-full lg:w-6/12 xl:w-3/12 px-4">
                 <CardStats
-                  statSubtitle="Circulating Supply"
-                  statTitle="549,231"
+                  statSubtitle="CBTC Price"
+                  statTitle="1.03 BTC"
                   statArrow="up"
-                  statPercent="8.41"
+                  statPercent="3"
                   statPercentColor="text-emerald-500"
                   statDescripiron="Since last month"
                   statIconName="fas fa-users"
@@ -51,12 +51,12 @@ export default function HeaderStats() {
               </div>
               <div className="w-full lg:w-6/12 xl:w-3/12 px-4">
                 <CardStats
-                  statSubtitle="Historical APY"
-                  statTitle="90%"
-                  statArrow=""
-                  statPercent="40"
+                  statSubtitle="CBTC Collateral"
+                  statTitle="$0.697m"
+                  statArrow="up"
+                  statPercent="na"
                   statPercentColor="text-emerald-500"
-                  statDescripiron="Target"
+                  statDescripiron="Since last month"
                   statIconName="fas fa-percent"
                   statIconColor="bg-lightBlue-500"
                 />
